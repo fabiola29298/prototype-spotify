@@ -1,8 +1,10 @@
 @import './icons.css';
-@import './efonts.css';
+@import './fonts.css';
 @import './body.css';
 @import './link.css';
 @import './button-icon.css';
+@import './logo.css';
+@import './list.css';
 
 :root{
   --primary: #00B050;
