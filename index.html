@@ -9,15 +9,43 @@
   <title>Spotifu</title>
   <link rel="icon" type="image/svg" href="https://cdn.icon-icons.com/icons2/836/PNG/512/Spotify_icon-icons.com_66783.png" />
   <meta property="og:title" content="Prototipo de Spotify en HTML/CSS" />
-  <meta property="og:description" content="Get from SEO newbie to SEO pro in 8 simple steps." />
   <meta property="og:type" content="website" />
   <meta property="og:image"
     content="https://platform-api-production.s3.amazonaws.com/projects/details/2161f6a0-d2ac-4b05-9c43-fff8dbb6854b/Proyecci%C3%B3n-spotifu.png" />
-  <meta property="og:description" content="Spotifu es un prototipo diseñado en HTML y CSS." />
+  <meta property="og:description" content="Prototipo diseñado en HTML y CSS." />
 
   </head>
 
 <body class="body">
+  <div class="playerControls">
+
+    <div class="playerControls-buttons">
+      <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+        <i class="icon-chevronLeft" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+        <i class="icon-play" aria-hidden="true"></i>
+      </button>
+      <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+        <i class="icon-chevronRight" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="playerPlayback">
+      <span class="playerPlayback-progressTime">01:40</span>
+      <div class="playerPlayback-slider">
+        <div class="slider">
+          <div class="slider-progress">
+            <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+          </div>
+        </div>
+      </div>
+      <span class="playerPlayback-progressTime">03:25</span>
+    </div>
+
+  </div>
+
+
+
   <div class="sidebar">
     <header class="logo" >
       <a href="/" aria-current="page">
@@ -76,13 +104,6 @@
 
 
 
-  <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
-
-  <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-    <i class="icon-play" aria-hidden="true"></i>
-  </button>
 
 </body>
 
