@@ -7,62 +7,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/index.css">
   <title>Spotifu</title>
-</head>
+  <link rel="icon" type="image/svg" href="https://cdn.icon-icons.com/icons2/836/PNG/512/Spotify_icon-icons.com_66783.png" />
+  <meta property="og:title" content="Prototipo de Spotify en HTML/CSS" />
+  <meta property="og:description" content="Get from SEO newbie to SEO pro in 8 simple steps." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image"
+    content="https://platform-api-production.s3.amazonaws.com/projects/details/2161f6a0-d2ac-4b05-9c43-fff8dbb6854b/Proyecci%C3%B3n-spotifu.png" />
+  <meta property="og:description" content="Spotifu es un prototipo diseñado en HTML y CSS." />
+
+  </head>
 
 <body class="body">
-  <header class="logo" >
-    <a href="/" aria-current="page">
-      <img src="./images/spotifu.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
-    </a>
-  </header>
-
-  <nav class="menu" aria-label="Principal" >
-    <ul class="menu-list">
-      <li class="menuItem is-active">
-        <a class="link" href="/" aria-current="page">
-        <i class="icon-home" aria-hidden="true"> </i>
-        <span>Inicio</span>
+  <div class="sidebar">
+    <header class="logo" >
+      <a href="/" aria-current="page">
+        <img src="./images/spotifu.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
       </a>
-      </li>
-      <li class="menuItem">
-        <a class="link" href="/" >
-          <i class="icon-searchSmall" aria-hidden="true"> </i>
-          <span>Buscar</span>
+    </header>
+    <nav class="menu" aria-label="Principal" >
+      <ul class="menu-list">
+        <li class="menuItem is-active">
+          <a class="link" href="/" aria-current="page">
+          <i class="icon-home" aria-hidden="true"> </i>
+          <span>Inicio</span>
         </a>
-      </li>
-      <li class="menuItem">
-        <a class="link" href="/">
-          <i class="icon-creditCard" aria-hidden="true"> </i>
-          <span>Premium</span>
-        </a>
-      </li>
-    </ul>
-  </nav>
-
-
-  <nav class="list" aria-labelledby="library-navigation">
-    <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
-    <ul class="list-content">
-      <li class="list-item"><a href="#" class="link">Creada para ti</a></li>
-      <li class="list-item"><a href="#" class="link">Escuchando recientemente</a></li>
-      <li class="list-item"><a href="#" class="link">Tus Me Gusta</a></li>
-    </ul>
-  </nav>
-
-  <nav class="list" aria-labelledby="playlist-navigation">
-    <h2 class="list-title" id="playlist-navigation">Playlist</h2>
-    <ul class="list-content">
-      <li class="list-item"><a href="#" class="link">Lo mejor de los mejor</a></li>
-      <li class="list-item"><a href="#" class="link">Naruto al 100% para programar</a></li>
-      <li class="list-item"><a href="#" class="link">Para cantar en la ducha</a></li>
-      <li class="list-item"><a href="#" class="link">Sin parar</a></li>
-      <li class="list-item"><a href="#" class="link">Naruto opening</a></li>
-      <li class="list-item"><a href="#" class="link">Bichota list</a></li>
-      <li class="list-item"><a href="#" class="link">This is Morat</a></li>
-      <li class="list-item"><a href="#" class="link">Mis pistas de Shazam</a></li>
-      <li class="list-item"><a href="#" class="link">This is Ricardo Arjona</a></li>
-    </ul>
-  </nav>
+        </li>
+        <li class="menuItem">
+          <a class="link" href="/" >
+            <i class="icon-searchSmall" aria-hidden="true"> </i>
+            <span>Buscar</span>
+          </a>
+        </li>
+        <li class="menuItem">
+          <a class="link" href="/">
+            <i class="icon-creditCard" aria-hidden="true"> </i>
+            <span>Premium</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="list" aria-labelledby="library-navigation">
+      <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
+      <ul class="list-content">
+        <li class="list-item"><a href="#" class="link">Creada para ti</a></li>
+        <li class="list-item"><a href="#" class="link">Escuchando recientemente</a></li>
+        <li class="list-item"><a href="#" class="link">Tus Me Gusta</a></li>
+      </ul>
+    </nav>
+    <nav class="list" aria-labelledby="playlist-navigation">
+      <h2 class="list-title" id="playlist-navigation">Playlist</h2>
+      <ul class="list-content">
+        <li class="list-item"><a href="#" class="link">Lo mejor de los mejor</a></li>
+        <li class="list-item">
+          <span class="ellipsis">
+            <a href="#" class="link">Naruto al 100% para programar en la noche</a>
+          </span>
+        </li>
+        <li class="list-item"><a href="#" class="link">Para cantar en la ducha</a></li>
+        <li class="list-item"><a href="#" class="link">Sin parar</a></li>
+        <li class="list-item"><a href="#" class="link">Naruto opening</a></li>
+        <li class="list-item"><a href="#" class="link">Bichota list</a></li>
+        <li class="list-item"><a href="#" class="link">This is Morat</a></li>
+        <li class="list-item"><a href="#" class="link">Mis pistas de Shazam</a></li>
+        <li class="list-item"><a href="#" class="link">This is Ricardo Arjona</a></li>
+      </ul>
+    </nav>
+  </div>
 
 
 
