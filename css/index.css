@@ -6,8 +6,11 @@
 @import './sidebar.css';
 @import './ellipsis.css';
 @import './slider.css';
+@import './player.css';
 @import './playerControls.css';
 @import './player-playback.css';
+@import './player-volumen.css';
+@import './now-playing.css';
 
 :root{
   --primary: #00B050;
