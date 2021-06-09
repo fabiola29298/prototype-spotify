@@ -18,67 +18,7 @@
 
 <body class="body">
 
-  <div class="nowPlaying">
-    <div class="nowPlaying-cover">
-      <img src="./images/mini-cover.png" width="56" height="56" alt="Portada de Gran Escape" title="Portada de Gran Escape">
-    </div>
-    <div class="nowPlaying-details">
-      <div class="nowPlaying-description">
-        <a href="#song" class="nowPlaying-title">
-          Gran Escape (feat. Tokio Miura)
-        </a>
-        <a href="#artist" class="nowPlaying-artist">
-          RADWIMPS, TOkio
-        </a>
-      </div>
-      <div class="nowPlaying-actions">
-        <button class="player-control" role="switch" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-          <i class="icon-heart" aria-hidden="true" ></i>
-        </button>
-      </div>
-    </div>
-  </div>
 
-
-  <div class="playerControls" aria-label="Controles de reproduccion">
-
-    <div class="playerControls-buttons">
-      <button class="buttonIcon" aria-label="Anterior" title="Anterior">
-        <i class="icon-chevron-left" aria-hidden="true"></i>
-      </button>
-      <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-        <i class="icon-play" aria-hidden="true"></i>
-      </button>
-      <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
-        <i class="icon-chevron-right" aria-hidden="true"></i>
-      </button>
-    </div>
-    <div class="playerPlayback" >
-      <span class="playerPlayback-progressTime">01:40</span>
-      <div class="playerPlayback-slider">
-        <div class="slider">
-          <div class="slider-progress">
-            <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
-          </div>
-        </div>
-      </div>
-      <span class="playerPlayback-progressTime">03:25</span>
-    </div>
-
-  </div>
-
-  <div class="playerVolumen">
-    <button class="player-control" aria-describedby="volumen-icon" aria-label="Silenciar">
-      <i class="icon-volume-up" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
-    </button>
-    <div class="playerVolumen-slider">
-      <div class="slider">
-        <div class="slider-progress">
-          <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -138,7 +78,74 @@
     </nav>
   </div>
 
+  <div class="player">
+    <div class="player-nowPlaying">
+      <div class="nowPlaying">
+        <div class="nowPlaying-cover">
+          <img src="./images/mini-cover.png" width="56" height="56" alt="Portada de Gran Escape"
+            title="Portada de Gran Escape">
+        </div>
+        <div class="nowPlaying-details">
+          <div class="nowPlaying-description">
+            <a href="#song" class="nowPlaying-title">
+              Gran Escape (feat. Tokio Miura)
+            </a>
+            <a href="#artist" class="nowPlaying-artist">
+              RADWIMPS, TOkio
+            </a>
+          </div>
+          <div class="nowPlaying-actions">
+            <button class="player-control" role="switch" aria-label="Guardar en tu biblioteca"
+              title="Guardar en tu biblioteca">
+              <i class="icon-heart" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="player-playerControls">
+      <div class="playerControls" aria-label="Controles de reproduccion">
+        <div class="playerControls-buttons">
+          <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+            <i class="icon-chevron-left" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+            <i class="icon-play" aria-hidden="true"></i>
+          </button>
+          <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+            <i class="icon-chevron-right" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="playerPlayback">
+          <span class="playerPlayback-progressTime">01:40</span>
+          <div class="playerPlayback-slider">
+            <div class="slider">
+              <div class="slider-progress">
+                <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+              </div>
+            </div>
+          </div>
+          <span class="playerPlayback-progressTime">03:25</span>
+        </div>
+      </div>
+    </div>
+    <div class="player-playerVolumen">
+      <div class="playerVolumen">
+        <button class="player-control" aria-describedby="volumen-icon" aria-label="Silenciar">
+          <i class="icon-volume-up" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
+        </button>
+        <div class="playerVolumen-slider">
+          <div class="slider">
+            <div class="slider-progress">
+              <button class="slider-button" aria-label="Controlar el progreso de la reproducción"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 
 </body>
