@@ -18,6 +18,9 @@
 
 <body class="body">
 
+
+
+
   <form class="search" role="search" aria-label="Buscar por canciones, artistas o podcast">
     <i class="icon-search-small" aria-hidden="true"></i>
     <input type="search" placeholder="Artist, songs, or podcasts">
@@ -27,6 +30,14 @@
   <section class="playlistList" aria-labelledby="region1">
     <div class="playlistList-top">
       <h2 class="title" id="region1"> Good afternoon</h2>
+      <div class="navigation">
+        <button class="navigation-prev" aria-label="Volver" title="Volver">
+          <i class="icon-chevron-left" aria-hidden="true"></i>
+        </button>
+        <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+          <i class="icon-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
     <div class="playlistList-container">
       <div class="playlistB">
@@ -155,7 +166,16 @@
 <section class="playlistList" aria-labelledby="region1">
   <div class="playlistList-top">
     <h2 class="title" id="region1"> Recently player</h2>
+    <div class="navigation">
+      <button class="navigation-prev" aria-label="Volver" title="Volver">
+        <i class="icon-chevron-left" aria-hidden="true"></i>
+      </button>
+      <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+        <i class="icon-chevron-right" aria-hidden="true"></i>
+      </button>
+    </div>
   </div>
+
   <div class="playlistList-container">
     <div class="playlistA">
       <div class="playlistA-cover">
