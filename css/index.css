@@ -7,9 +7,11 @@
 @import './ellipsis.css';
 @import './player.css';
 @import './playlistA.css';
+@import './playlistB.css';
 
 
 :root{
+  font-size: 16px;
   --primary: #00B050;
   --white: #FFFFFF;
   --gray10: #B3B3B3;
