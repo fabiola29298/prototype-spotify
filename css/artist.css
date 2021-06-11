@@ -1,0 +1,27 @@
+.artist-head{
+  display: flex;
+}
+.artist-info{
+  padding-inline-start: 1.5rem;
+}
+.artist-image{
+
+}
+.artist-head .title{
+  font: var(--headline1);
+  color: var(--white);
+  margin-block: .5rem;
+}
+.artist-head .description{
+  font: var(--baseFont);
+  color: var(--white);
+  margin-block: .5rem;
+}
+.artist-head .buttonAlbum{
+  background: var(--primary);
+  border-radius: 4.5rem;
+  padding: .5rem 2rem;
+  border: none;
+  font: var(--button);
+  color: var(--white);
+}
