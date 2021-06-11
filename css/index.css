@@ -11,6 +11,8 @@
 @import './playlistList.css';
 @import './search.css';
 @import './navigation.css';
+@import './header.css';
+@import './sticky.css';
 
 
 :root{
