@@ -1,0 +1,35 @@
+.album-table{
+}
+.table{
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table-header th {
+  font: var(--baseFontBold);
+  color: var(--white);
+}
+
+.table-header th [class^="icon-"],
+  .table-row td [class^="icon-"] {
+  font-size: 1.125rem;
+  color: var(--gray10);
+}
+
+.table-row td {
+  color: var(--white);
+  font: var(--baseFont);
+}
+.table-row:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.table-row td:nth-child(5),
+.table-row td:nth-child(6) {
+  color: var(--gray10);
+}
+.col-icon {
+  display: flex;
+  flex-shrink: 0;
+}
+

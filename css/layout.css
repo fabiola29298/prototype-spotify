@@ -31,3 +31,10 @@
 .layout-block{
   display: flex;
 }
+
+.is-background{
+  background: linear-gradient(181.17deg, rgba(47, 47, 47, 0) -35.3%, #171717 66.2%), url('../images/portada.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: local;
+}

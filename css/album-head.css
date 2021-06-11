@@ -1,0 +1,21 @@
+.album-head{
+  text-align: center;
+}
+.album-head .title{
+  font: var(--headline1);
+  color: var(--white);
+  margin-block: .5rem;
+}
+.album-head .description{
+  font: var(--baseFont);
+  color: var(--white);
+  margin-block: .5rem;
+}
+.album-head .buttonAlbum{
+  background: var(--primary);
+  border-radius: 4.5rem;
+  padding: .5rem 2rem;
+  border: none;
+  font: var(--button);
+  color: var(--white);
+}
