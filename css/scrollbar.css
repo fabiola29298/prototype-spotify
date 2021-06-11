@@ -1,0 +1,17 @@
+::-webkit-scrollbar{
+  inline-size: .5rem;
+  block-size: .5rem;
+}
+::-webkit-scrollbar-button{
+  background: var(--gray30);
+}
+::-webkit-scrollbar-thumb{
+
+}
+::-webkit-scrollbar-thumb{
+  background: var(--gray10);
+}
+::-webkit-scrollbar-track{
+  background: var(--gray30);
+}
+
