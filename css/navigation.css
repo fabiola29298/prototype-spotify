@@ -8,6 +8,7 @@
   block-size: 1.875rem;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 .navigation-prev i {
   position: relative;

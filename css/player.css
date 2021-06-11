@@ -18,8 +18,8 @@
 
 .player-control{
   border: none;
-  /* padding: 0; */
-  background: var(--gray60);
+  padding: 0;
+  background: var(--gray50);
   color: var(--gray10);
   font-size: 1rem;
   padding: .5rem;

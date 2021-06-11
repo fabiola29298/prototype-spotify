@@ -13,7 +13,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   gap: .5rem;
 }

@@ -5,6 +5,8 @@
   background: var(--gray40);
   box-sizing: border-box;
   transition: .3s background;
+  flex-shrink: 0;
+  position: relative;
 }
 
 .playlistA:hover, .playlistA:focus-within{
@@ -22,7 +24,7 @@
   position: relative;
   border-radius: .75rem;
   overflow: hidden;
-  margin-block: 1rem;
+  margin-block-end: 1rem;
 }
 
 .playlistA button{
